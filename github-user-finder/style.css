@@ -243,7 +243,7 @@ button:hover {
 .repo-card {
   background-color: rgba(255, 255, 255, 0.03);
   border-radius: var(--border-radius);
-  padding: 15p;
+  padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: transform 0.2s, background-color 0.2s;
 }
