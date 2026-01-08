@@ -71,11 +71,11 @@ function displayRepos(repos) {
 
   reposContainer.innerHTML = "";
 
-  repos = repos.sort((a, b) => {
-    return new Date(b.updated_at) - new Date(a.updated_at);
-  });
+  const sortedRepos = repos.toSorted(
+    (a, b) => new Date(b.updated_at) - new Date(a.updated_at)
+  );
 
-  repos.forEach((repo) => {
+  sortedRepos.forEach((repo) => {
     const repoCard = document.createElement("div");
     repoCard.className = "repo-card";
 
