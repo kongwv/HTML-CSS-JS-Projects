@@ -210,7 +210,7 @@ button:hover {
 .ingredients-list {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(autofill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 8px;
   margin-bottom: 1.5rem;
   width: 100%;
